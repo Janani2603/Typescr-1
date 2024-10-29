@@ -1,5 +1,9 @@
 <h3>
     {{message}}
     {{code}}
-    <a routerLink="/home">Home</a>
+    <a routerLink="/home">Home</a><br>
+    Date: {{ currentDate | date:'medium' }} <br>
+    Additional Info: {{ normaltext }} <br>
+    ActualPrice: {{ actualprice | number:'1.2-2' }}
+    GST: {{ gst | currency:'EUR':'symbol':'1.2-2' }}
 </h3>
