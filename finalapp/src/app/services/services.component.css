@@ -1,0 +1,20 @@
+.c1{
+    background-color: lightblue;
+    height:550px;
+    margin:40px 100px 50px 50px;
+    display: flex;
+}
+.in1,.in2{
+    margin: 10px 10px 10px 10px;
+    width: 100vh;
+}
+.in1{
+    background-color: tan;
+    /* overflow: scroll; */
+    text-align: justify;
+    
+}
+.in2{
+    background-color: honeydew;
+    
+}
